@@ -145,6 +145,10 @@
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{85a19c33-c2cc-4e62-b19e-3a065baece1c}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{49976ae9-3d6e-47e3-a1c7-1a2ce9a414e3}</Project>
       <Name>Entidades</Name>
