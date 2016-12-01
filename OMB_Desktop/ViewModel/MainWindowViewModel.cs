@@ -73,12 +73,16 @@ namespace OMB_Desktop.ViewModel
 
       Login = new RelayCommand(() =>
       {
-        DisplayLogin.Raise(new Notification() { Title = "Ingreso al sistema" }, LoginTerminado);
+        DisplayLogin.Raise(new Notification()
+        {
+            Title = "Ingreso al sistema",
+            Content = "Prueba"
+        }, LoginTerminado);
+            
       }, CanLogin);
 
       Logout = new RelayCommand(() =>
       {
-
           SecurityServices serv = new SecurityServices(/*null*/);
 
         serv.Logout();

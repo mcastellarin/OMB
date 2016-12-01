@@ -15,7 +15,7 @@
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
-using OMB_Desktop.ViewModels;
+
 
 namespace OMB_Desktop.ViewModel
 {
